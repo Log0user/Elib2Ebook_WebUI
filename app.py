@@ -11,7 +11,7 @@ app = Flask(__name__)
 WORK_DIR = r"E:\vpn_site\work"
 OLD_DIR = os.path.join(WORK_DIR, "old")
 EXE_PATH = os.path.join(WORK_DIR, "Elib2EbookCli.exe")
-PASSWORD = "T2_FF"
+PASSWORD = "MEOW"
 
 if not os.path.exists(OLD_DIR):
     os.makedirs(OLD_DIR)
@@ -215,3 +215,4 @@ def delete():
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=False)
+
