@@ -1,4 +1,4 @@
-Что нужно для запуска:
+Что нужно для запуска на windows(win10+):
 1. Установи Python(при установке поставь галочку Add Python to PATH): https://www.python.org/downloads/windows/
 2. Установи Flask(выполни в cmd после установки Python): pip install flask
 3. Скачай Elib2Ebook(Elib2Ebook-windows-latest-portable.zip): https://github.com/OnlyFart/Elib2Ebook/releases
